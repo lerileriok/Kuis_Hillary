@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopora — Toko Online Minimal</title>
+  <meta name="description" content="Contoh situs e-commerce sederhana dengan HTML + external CSS">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#">Shopora</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="#search" class="icon">🔎</a>
+        <a href="#cart" class="icon">🛒<span class="cart-count">3</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>No Think Just Click</h1>
+          <p>Enjoy the best product collection at competitive prices and fast delivery.</p>
+          <a href="#shop" class="btn btn-primary">SHOP NOW</a>
+        </div>
+    </section>
+
+    <section id="shop" class="products container">
+      <h2 class="section-title">Produk Terbaru</h2>
+      <div class="grid">
+        <!-- Product Card (repeat) -->
+        <article class="product-card">
+          <div class="product-image"><img src="o.jfif" alt="Product Image"></div>
+          <div class="product-body">
+            <h3 class="product-title">Rare Beauty Blush Liquid</h3>
+            <p class="product-desc">This weightless liquid blush delivers high-impact color with just one dot, blending seamlessly for a pinch-perfect flush that lasts up to 12 hours.</p>
+            <div class="product-meta">
+              <span class="price">US$25,00</span>
+              <a class="btn btn-outline" href="#">Tambah</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"><img src="Saie Dew Bronze _ Soft-Focus Effortless Liquid Bronzer.jfif" alt="Product Image"></div>
+          <div class="product-body">
+            <h3 class="product-title">Saie Dew Bronze | Soft-Focus Effortless Liquid Bronzer</h3>
+            <p class="product-desc">Bronze but better! Saie hello to Dew Bronze™, the most effortless liquid bronzer for a subtly defined bronze with a soft-focus finish.</p>
+            <div class="product-meta">
+              <span class="price">US$26,00</span>
+              <a class="btn btn-outline" href="#">Tambah</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"><img src="ok.jpg" alt="Product Image"></div>
+          <div class="product-body">
+            <h3 class="product-title">e.l.f. Glow Reviver Lip Oil- Hot As Fudge</h3>
+            <p class="product-desc">Revitalize lips with our tinted lip oil! The ultra-plush, oversized applicator slicks on lip oil and a sheer flush of color to enhance your natural pout.</p>
+            <div class="product-meta">
+              <span class="price">US$9,00</span>
+              <a class="btn btn-outline" href="#">Tambah</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"><img src="dior.jpg" alt="Product Image"></div>
+          <div class="product-body">
+            <h3 class="product-title">Ysl Touche Eclat Glow-pact Cushion 12g / Mesh Pink Cushion</h3>
+            <p class="product-desc">YSL Touche Eclat Glow Pact Cushion 12g, New Mesh Pink Cushion Features.</p>
+            <div class="product-meta">
+              <span class="price">US$6.00</span>
+              <a class="btn btn-outline" href="#">Tambah</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2 class="section-title">Tentang Shopora</h2>
+      <p>About Shopora
+Shopora was founded to provide a fast, safe, and enjoyable online shopping experience. We select quality products from trusted brands and support shipping throughout Indonesia.
+</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Kontak</h2>
+      <p>Need assistance? Contact us via email:<a href="mailto:cs@shopora.id">cs@shopora.id</a> Or Call <strong>+62 21 555 0123</strong>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Shopora — All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
